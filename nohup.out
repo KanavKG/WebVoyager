@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\kanav\Documents\src\WebVoyager\run.py", line 17, in <module>
+    from utils import get_web_element_rect, encode_image, extract_information, print_message,\
+  File "C:\Users\kanav\Documents\src\WebVoyager\utils.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

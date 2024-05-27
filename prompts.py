@@ -17,6 +17,9 @@ Correspondingly, Action should STRICTLY follow the format:
 - Google
 - ANSWER; [content]
 
+Do not deviate from the provided format, or something very bad will happen and I will not be happy. 
+Only provide one action at a time, and do not add any addtional text for the action. 
+
 Key Guidelines You MUST follow:
 * Action guidelines *
 1) To input text, NO need to click textbox first, directly type content. After typing, the system automatically hits `ENTER` key. Sometimes you should click the search button to apply search filters. Try to use simple language when searching.  

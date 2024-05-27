@@ -306,12 +306,12 @@ def print_message(json_object, save_dir=None):
     for obj in json_object:
         if obj['role'] != 'user':
             # print(obj)
-            logging.info(obj)
+            # logging.info(obj)
             remove_b64code_obj.append(obj)
         else:
             if type(obj['content']) == str:
                 # print(obj)
-                logging.info(obj)
+                # logging.info(obj)
                 remove_b64code_obj.append(obj)
             else:
                 print_obj = {
@@ -322,7 +322,7 @@ def print_message(json_object, save_dir=None):
                     if item['type'] == 'image_url':
                         item['image_url'] =  {"url": "data:image/png;base64,{b64_img}"}
                 # print(print_obj)
-                logging.info(print_obj)
+                #logging.info(print_obj)
                 remove_b64code_obj.append(print_obj)
     if save_dir:
         with open(os.path.join(save_dir, 'interact_messages.json'), 'w', encoding='utf-8') as fw:

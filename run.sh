@@ -1,8 +1,7 @@
 #!/bin/bash
-nohup python -u run.py \
+python -u run.py \
     --test_file ./data/tasks_test.jsonl \
-    --api_key YOUR_OPENAI_API_KEY \
-    --headless \
+    --api_key placeholder \
     --max_iter 15 \
     --max_attached_imgs 3 \
     --temperature 1 \
